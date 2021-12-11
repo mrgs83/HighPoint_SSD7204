@@ -1,5 +1,3 @@
-# **HighPoint RAID Management WebGui access: http://localhost:7402**
-
 # **HighPoint_SSD7204 Components Pack for Ubuntu server 20.04**
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/mrgs83/HighPoint_SSD7204/main/ubuntu-20.04-server-deploy.sh)"
 
@@ -30,3 +28,4 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/mrgs83/HighPoint_SSD7204
 
 **storcli**	MegaRAID command line interface
 
+# **HighPoint RAID Management WebGui access: http://localhost:7402**
