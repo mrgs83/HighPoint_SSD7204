@@ -16,7 +16,7 @@ add-apt-repository 'deb [arch=amd64,i386] http://downloads.linux.hpe.com/SDR/rep
 wget http://archive.ubuntu.com/ubuntu/pool/main/j/json-c/libjson-c3_0.12.1-1.3_amd64.deb;
 dpkg -i libjson-c3_0.12.1-1.3_amd64.deb;
 apt update;
-apt satisfy amsd;
-apt install hponcfg;
+apt satisfy -y amsd;
+apt install -y hponcfg;
 rm -rf /tmp7204;
 reboot
