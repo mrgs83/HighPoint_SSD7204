@@ -13,10 +13,9 @@ curl https://downloads.linux.hpe.com/SDR/hpPublicKey2048_key1.pub | apt-key add 
 curl https://downloads.linux.hpe.com/SDR/hpePublicKey2048_key1.pub | apt-key add -;
 add-apt-repository 'deb [arch=amd64,i386] http://downloads.linux.hpe.com/SDR/repo/mcp bionic/current non-free';
 add-apt-repository 'deb [arch=amd64,i386] http://downloads.linux.hpe.com/SDR/repo/mcp bionic/10.80 non-free';
-wget http://archive.ubuntu.com/ubuntu/pool/main/j/json-c/libjson-c3_0.12.1-1.3_amd64.deb;
+wget https://raw.githubusercontent.com/mrgs83/HighPoint_SSD7204/main/libjson-c3_0.12.1-1.3_amd64.deb;
 dpkg -i libjson-c3_0.12.1-1.3_amd64.deb;
 apt update;
-apt satisfy -y amsd;
-apt install -y hponcfg;
+apt install -y hp-health hponcfg amsd hp-ams hp-snmp-agents hpsmh hp-smh-templates ssacli ssaducli ssa storcli;
 rm -rf /tmp7204;
 reboot
