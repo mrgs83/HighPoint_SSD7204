@@ -8,4 +8,5 @@ chmod +x hptnvme_g5_linux_src_v1.3.2_2021_10_27.bin;
 chmod +x RAID_Manage_Linux_v3.0.7_21_11_12.bin;
 ./hptnvme_g5_linux_src_v1.3.2_2021_10_27.bin;
 ./RAID_Manage_Linux_v3.0.7_21_11_12.bin;
+rm -rf /tmp7204;
 reboot
