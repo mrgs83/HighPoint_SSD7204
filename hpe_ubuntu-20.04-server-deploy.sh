@@ -16,6 +16,6 @@ add-apt-repository 'deb [arch=amd64,i386] http://downloads.linux.hpe.com/SDR/rep
 wget https://raw.githubusercontent.com/mrgs83/HighPoint_SSD7204/main/libjson-c3_0.12.1-1.3_amd64.deb;
 dpkg -i libjson-c3_0.12.1-1.3_amd64.deb;
 apt update;
-apt install -y hp-health hponcfg hp-ams hp-snmp-agents hpsmh hp-smh-templates ssacli ssaducli ssa storcli;
+apt install -y hp-health hponcfg hp-ams hp-snmp-agents hpsmh hp-smh-templates ssacli ssaducli storcli;
 rm -rf /tmp7204;
 reboot
