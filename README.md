@@ -10,8 +10,6 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/mrgs83/HighPoint_SSD7204
 
 **hponcfg**	HPE RILOE II/iLO online configuration utility
 
-**amsd**	HPE Agentless Management Service (Gen10 only)
-
 **hp-ams**	HPE Agentless Management Service (Gen9 and earlier)
 
 **hp-snmp-agents**	Insight Management SNMP Agents for HPE ProLiant Systems (Gen9 and earlier)
@@ -23,8 +21,6 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/mrgs83/HighPoint_SSD7204
 **ssacli**	HPE Command Line Smart Storage Administration Utility
 
 **ssaducli**	HPE Command Line Smart Storage Administration Diagnostics
-
-**ssa**	HPE Array Smart Storage Administration Service
 
 **storcli**	MegaRAID command line interface
 
